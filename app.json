@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Family GPS Tracker",
+    "slug": "gpstracker",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.dhoraji.gpstracker",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDd_35r07U-UE2VAmyk5vjMfsGNSwjyaPs"
+        }
+      }
+    }
+  }
+}
